@@ -32,7 +32,7 @@ const char* const g_strings[StrId_Max][17] =
 {
     [StrId_Loading] =
     {
-        STR_EN("Loading…"),
+        STR_EN("Yükleniyor…"),
         STR_ES("Cargando…"),
         STR_DE("Lade…"),
         STR_FR("Chargement…"),
@@ -70,7 +70,7 @@ const char* const g_strings[StrId_Max][17] =
 
     /*[StrId_DefaultLongTitle] =
     {
-        STR_EN("Homebrew uygulamsi"),
+        STR_EN("Homebrew uygulamsı"),
         STR_ES("Aplicación homebrew"),
         STR_DE("Homebrew-Anwendung"),
         STR_FR("Application homebrew"),
@@ -86,7 +86,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_DefaultPublisher] =
     {
-        STR_EN("Bilinmeyen Kisi"),
+        STR_EN("Bilinmeyen Kişi"),
         STR_ES("Autor desconocido"),
         STR_DE("Unbekannter Autor"),
         STR_FR("Auteur inconnu"),
@@ -102,7 +102,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_IOError] =
     {
-        STR_EN("I/O Hatasi"),
+        STR_EN("I/O Hatası"),
         STR_ES("Error de E/S"),
         STR_DE("I/O-Fehler"),
         STR_FR("Erreur d'E/S"),
@@ -118,7 +118,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_CouldNotOpenFile] =
     {
-        STR_EN("Dosyayi acamiyor:\n%s"),
+        STR_EN("Dosyayı açamıyor:\n%s"),
         STR_ES("No se pudo abrir el archivo:\n%s"),
         STR_DE("Konnte Datei nicht öffnen:\n%s"),
         STR_FR("Impossible d'ouvrir le fichier :\n%s"),
@@ -134,7 +134,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_NoAppsFound_Title] =
     {
-        STR_EN("Uygulama bulunamadi"),
+        STR_EN("Uygulama bulunamadı"),
         STR_ES("No hay aplicaciones"),
         STR_DE("Keine Anwendungen gefunden"),
         STR_FR("Aucune application trouvée"),
@@ -151,8 +151,8 @@ const char* const g_strings[StrId_Max][17] =
     [StrId_NoAppsFound_Msg] =
     {
         STR_EN(
-            "SD kartta uygulama bulunamadi\n"
-            "SD kartta /switch dosyasi oldugunan emin olun\n"
+            "SD kartta uygulama bulunamadı\n"
+            "SD kartta /switch dosyası olduğunan emin olun\n"
             ":D\n"
         ),
         STR_ES(
@@ -231,7 +231,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_AppLaunchError] =
     {
-        STR_EN("Uygulama baslatilamadi"),
+        STR_EN("Uygulama başlatılamadı"),
         STR_DE("Konnte die Anwendung nicht starten:"),
         STR_FR("Erreur au lancement de l'application"),
         STR_IT("Errore nell'avvio dell'applicazione:"),
@@ -271,7 +271,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_Actions_Launch] =
     {
-        STR_EN("Baslat"),
+        STR_EN("Başlat"),
         STR_ES("Lanzamiento"),
         STR_DE("Starten"),
         STR_FR("Lancement"),
@@ -287,7 +287,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_Actions_Open] =
     {
-        STR_EN("Ac"),
+        STR_EN("Aç"),
         STR_ES("Abrir"),
         STR_DE("Öffnen"),
         STR_FR("Ouvrir"),
@@ -343,21 +343,21 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_Actions_Star] =
     {
-        STR_EN("Yildizda"),
+        STR_EN("Yıldızda"),
         STR_ES("Agregar a favoritos"),
         STR_IT("Aggiungi ai preferiti"),
     },
 
     [StrId_Actions_Unstar] =
     {
-        STR_EN("Yildizlama"),
+        STR_EN("Yıldızlama"),
         STR_ES("Borrar de favoritos"),
         STR_IT("Rimuovi dai preferiti"),
     },
 
     [StrId_ThemeMenu] =
     {
-        STR_EN("Tema menusu"),
+        STR_EN("Tema menüsü"),
         STR_FR("Menu Thème"),
         STR_DE("Theme Menü"),
         STR_ES("Menú temático"),
@@ -369,7 +369,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_ThemeNotApplied] =
     {
-        STR_EN("Tema bir hatadan dolayi ayarlanamadi"),
+        STR_EN("Tema bir hatadan dolayı ayarlanamadı"),
         STR_DE("Das Theme konnte nicht geladen werden, da ein Fehler aufgetreten ist."),
         STR_FR("Le thème ne peut pas être appliqué car une erreur est survenue."),
         STR_ES("El tema no se pudo aplicar porque se ha producido un error."),
@@ -381,7 +381,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_DefaultThemeName] =
     {
-        STR_EN("Varsayilan tema"),
+        STR_EN("Varsayılan tema"),
         STR_FR("Thème par défaut"),
         STR_DE("Standard Theme"),
         STR_IT("Tema di default"),
@@ -390,8 +390,8 @@ const char* const g_strings[StrId_Max][17] =
     /*[StrId_Reboot] =
     {
         STR_EN(
-            "Geri donuluyor \xEE\x81\xB3HOME mevcut degil.\n"
-            "Konsolu yeniden baslatmak uzeresiniz\n\n"
+            "Geri dönülüyor \xEE\x81\xB3HOME mevcut degil.\n"
+            "Konsolu yeniden başlatmak üzeresiniz\n\n"
             "  \xEE\x80\x80 Yeniden baslat\n"
             "  \xEE\x80\x81 Iptal"
         ),
@@ -467,10 +467,10 @@ const char* const g_strings[StrId_Max][17] =
     /*[StrId_ReturnToHome] =
     {
         STR_EN(
-            "Geri donmek uzereydiniz \xEE\x81\xB3HOME.\n\n"
+            "Geri dönmek üzereydiniz \xEE\x81\xB3HOME.\n\n"
             "  \xEE\x80\x80 Geri\n"
-            "  \xEE\x80\x81 Iptal\n"
-            "  \xEE\x80\x82 Yeniden baslat"
+            "  \xEE\x80\x81 İptal\n"
+            "  \xEE\x80\x82 Yeniden başlat"
         ),
         STR_ES(
             "Está a punto de volver a \xEE\x81\xB3HOME.\n\n"
@@ -542,7 +542,7 @@ const char* const g_strings[StrId_Max][17] =
 
     /*[StrId_TitleSelector] =
     {
-        STR_EN("Uygulama baslatici"),
+        STR_EN("Uygulama başlatıcı"),
         STR_ES("Selector de título"),
         STR_DE("Titel-Auswahl"),
         STR_FR("Sélecteur de titre"),
@@ -558,7 +558,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_ErrorReadingTitleMetadata] =
     {
-        STR_EN("Metadata okunurken hata olustu\n%08lX%08lX@%d"),
+        STR_EN("Metadata okunurken hata oluştu\n%08lX%08lX@%d"),
         STR_ES("Error leyendo los metadatos de los títulos.\n%08lX%08lX@%d"),
         STR_DE("Fehler beim Lesen der Titel-Metadaten.\n%08lX%08lX@%d"),
         STR_FR(
@@ -577,7 +577,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_NoTitlesFound] =
     {
-        STR_EN("Uygulama bulunmadi"),
+        STR_EN("Uygulama bulunmadı"),
         STR_ES("No se han podido detectar títulos."),
         STR_DE("Keine Titel gefunden."),
         STR_FR("Aucun titre trouvé."),
@@ -594,9 +594,9 @@ const char* const g_strings[StrId_Max][17] =
     [StrId_SelectTitle] =
     {
         STR_EN(
-            "Lutfen hedaf uygulama secin.\n\n"
-            "  \xEE\x80\x80 Sec\n"
-            "  \xEE\x80\x81 Iptal"
+            "Lütfen hedef uygulama seçin.\n\n"
+            "  \xEE\x80\x80 Seç\n"
+            "  \xEE\x80\x81 İptal"
         ),
         STR_ES(
             "Elija el título de destino.\n\n"
@@ -659,7 +659,7 @@ const char* const g_strings[StrId_Max][17] =
     {
         STR_EN(
             "Bu homebrew exploiti desteklenmiyor\n"
-            "bu uygulamalar icin.\n"
+            "bu uygulamalar için.\n"
             "Baska bir exploit deneyin."
         ),
         STR_ES(
@@ -722,8 +722,8 @@ const char* const g_strings[StrId_Max][17] =
     [StrId_MissingTargetTitle] =
     {
         STR_EN(
-            "Calistirmaya calistiginiz uygulama\n"
-            "icin gerekli uygulama kurulu degil."
+            "Çalıstırmaya çalıştığınız uygulama\n"
+            "için gerekli uygulama kurulu değil."
         ),
         STR_ES(
             "La aplicación seleccionada necesita un título\n"
@@ -773,7 +773,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_NetLoader] =
     {
-        STR_EN("AgModulu"),
+        STR_EN("AğModülü"),
         STR_ES("Cargador de programas"),
         STR_DE("Netzwerk-Loader"),
         STR_FR("Chargeur de programme"),
@@ -789,7 +789,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_NetLoaderUnavailable] =
     {
-        STR_EN("AgModulu mevut degil."),
+        STR_EN("AğModülü mevcut değil."),
         STR_ES("El cargador de programas no está disponible."),
         STR_DE("Der Netzwerk-Loader ist zur Zeit nicht verfügbar."),
         STR_FR("Le chargeur de programme nxlink est indisponible."),
@@ -805,7 +805,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_NetLoaderError] =
     {
-        STR_EN("Hata olustu.\nDetay: [%s:%d]"),
+        STR_EN("Hata oluştu.\nDetay: [%s:%d]"),
         STR_ES("Ha ocurrido un error.\nDatos técnicos: [%s:%d]"),
         STR_DE("Ein Fehler ist aufgetreten\nTechnische Details: [%s:%d]"),
         STR_FR("Une erreur s'est produite.\nDétails techniques : [%s:%d]"),
@@ -821,7 +821,7 @@ const char* const g_strings[StrId_Max][17] =
 
     [StrId_NetLoaderOffline] =
     {
-        STR_EN("Offline, ag ariyor…"),
+        STR_EN("Çevrimdışı, ağ arıyor…"),
         STR_DE("Offline, warte auf Netzwerk…"),
         STR_FR("Hors-ligne, en attente d'une connection..."),
         STR_IT("Disconnesso, in attesa della connessione…"),
@@ -834,7 +834,7 @@ const char* const g_strings[StrId_Max][17] =
     [StrId_NetLoaderActive] =
     {
         STR_EN(
-            "nxlink baglanmasi bekleniyor…\n"
+            "nxlink bağlanması bekleniyor…\n"
             "IP Addr: %lu.%lu.%lu.%lu, Port: %d"
         ),
         STR_ES(
